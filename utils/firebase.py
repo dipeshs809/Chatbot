@@ -6,6 +6,7 @@ firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
+
 answers_collection = db.collection(u'answers')
 userlogs_collection = db.collection(u'userlogs')
 users_collection = db.collection(u'users')
